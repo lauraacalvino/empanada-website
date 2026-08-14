@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Festa da Empanada · Bandeira</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header id="site-header">
+  <div class="nav-inner">
+    <a class="brand" href="#inicio">
+      <img src="img/logo.png" alt="Festa da Empanada">
+    </a>
+    <nav>
+      <ul>
+        <li class="has-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true">
+            Empanada
+            <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="dropdown-menu">
+            <a href="empanada/historia.html">Historia</a>
+            <a href="empanada/concurso.html">Concurso</a>
+            <a href="empanada/pregon.html">Pregón</a>
+            <a href="empanada/valedores.html">Valedores</a>
+            <a href="empanada/penas.html">Peñas</a>
+            <a href="empanada/programacion.html">Programación</a>
+          </div>
+        </li>
+        <li><a href="#visitanos">Visítanos</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <a class="nav-cta" href="empanada/programacion.html">Programación 2026</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li>
+        <button class="mobile-dropdown-toggle" id="mobileDropdownToggle" aria-expanded="false">
+          Empanada
+          <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="mobile-submenu" id="mobileSubmenu">
+          <li><a href="empanada/historia.html">Historia</a></li>
+          <li><a href="empanada/concurso.html">Concurso</a></li>
+          <li><a href="empanada/pregon.html">Pregón</a></li>
+          <li><a href="empanada/valedores.html">Valedores</a></li>
+          <li><a href="empanada/penas.html">Peñas</a></li>
+          <li><a href="empanada/programacion.html">Programación</a></li>
+        </ul>
+      </li>
+      <li><a href="#visitanos">Visítanos</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="hero-top">
+    <span class="eyebrow">Festa de Interese Turístico Nacional</span>
+    <h1>L Festa da Empanada</h1>
+    <p>Bandeira despide o agosto arredor dunha icona da gastronomía galega, dende 1974.</p>
+  </div>
+
+  <div class="hero-image-frame">
+    <img src="img/hero-empanada.jpg" alt="Man e empanada, ilustración inspirada na Creación de Adán">
+  </div>
+
+  <div class="hero-meta">
+    <div class="hero-meta-group">
+      <div class="item"><b>22</b> de agosto de 2026</div>
+      <div class="divider"></div>
+      <div class="item">Bandeira · Silleda</div>
+      <div class="divider"></div>
+      <div class="item">Dende 1974</div>
+    </div>
+    <div class="item">50ª edición</div>
+  </div>
+</section>
+
+<section class="intro" data-reveal>
+  <div class="wrap">
+    <h2>"A empanada é un buzón secreto que, unha vez partido en rebandas, nunca sabes que leva dentro."</h2>
+    <cite>Álvaro Cunqueiro</cite>
+  </div>
+</section>
+
+<section class="cards" id="descubre">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <h2>Descubre a festa</h2>
+      <p>Catro portas de entrada a unha tradición que reúne cada ano a máis de 30.000 persoas.</p>
+    </div>
+    <div class="card-grid">
+
+      <div class="card" id="historia" data-reveal>
+        <div class="card-ph"><span>Imaxe · Historia</span></div>
+        <div class="card-body">
+          <h3>A nosa historia</h3>
+          <p>Un carro de vacas cheo de empanadas e viño, unha carballeira ateigada de veciños e música tradicional galega.</p>
+          <a class="card-link" href="empanada/historia.html">Ver máis <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+
+      <div class="card" id="concurso" data-reveal>
+        <div class="card-ph"><span>Imaxe · Concurso</span></div>
+        <div class="card-body">
+          <h3>O concurso</h3>
+          <p>Elixe as mellores empanadas entre as decenas de elaboracións presentadas a un dos concursos máis importantes do mundo.</p>
+          <a class="card-link" href="empanada/concurso.html">Ver máis <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+
+      <div class="card" id="visitanos" data-reveal>
+        <div class="card-ph"><span>Imaxe · Contorno</span></div>
+        <div class="card-body">
+          <h3>Visita A Bandeira</h3>
+          <p>No corazón rural de Galicia, en pleno Camiño de Santiago, unha contorna chea de tesouros naturais e culturais.</p>
+          <a class="card-link" href="#">Ver máis <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+
+      <div class="card" id="galeria" data-reveal>
+        <div class="card-ph"><span>Imaxe · Galería</span></div>
+        <div class="card-body">
+          <h3>Galería de fotos</h3>
+          <p>As mellores imaxes da Festa da Empanada e dos eventos organizados pola Asociación Amigos da Empanada.</p>
+          <a class="card-link" href="#">Ver máis <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="wrap">
+    <h2 data-reveal>Medio século arredor da mesma mesa</h2>
+    <div class="about-text" data-reveal>
+      <p>A <strong>Festa da Empanada da Bandeira</strong> é o evento gastronómico por excelencia que, dende 1974, despide o agosto en Galicia, reunindo en cada edición a máis de <strong>30.000 persoas</strong> que gozan de ancestrais receitas ao redor dunha icona da gastronomía galega.</p>
+      <p>O municipio de Silleda convoca na vila de Bandeira a milleiros de visitantes para participar nas diferentes actividades culturais, lúdicas e de maridaxe gastronómico en torno a esta festa. Todo isto nunha contorna rural na que a natureza e o patrimonio ofrecen experiencias únicas.</p>
+      <p>A empanada gallega, protagonista indiscutible da celebración, distínguese pola súa masa dourada e crocante, recheada dunha variedade de ingredientes — carne, peixe, marisco ou verduras. Cada familia ten a súa propia receita secreta, o que converte a festa nunha oportunidade única para degustar diferentes versións deste prato tradicional.</p>
+    </div>
+  </div>
+</section>
+
+<section class="video" id="programacion">
+  <div class="video-frame" id="videoFrame" data-video-id="cNj0-I0LE_Q" role="button" tabindex="0" aria-label="Reproducir vídeo: A Festa da Empanada en 3 minutos">
+    <div class="play">
+      <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+    </div>
+    <span class="video-label">A Festa da Empanada en 3 minutos</span>
+  </div>
+</section>
+
+<section class="sponsors">
+  <span class="eyebrow" style="text-align:center; display:block;">Colaboran</span>
+  <div class="sponsor-row" data-reveal>
+    <div class="sponsor-chip">Concello de Silleda</div>
+    <div class="sponsor-chip">Deputación de Pontevedra</div>
+    <div class="sponsor-chip">Xunta de Galicia</div>
+    <div class="sponsor-chip">ABANCA</div>
+    <div class="sponsor-chip">Gadis</div>
+    <div class="sponsor-chip">Froiz</div>
+    <div class="sponsor-chip">Eroski</div>
+    <div class="sponsor-chip">Nudesa</div>
+  </div>
+</section>
+
+<section class="cta-strip" data-reveal>
+  <h2>Ven a Bandeira o penúltimo sábado de agosto</h2>
+  <p>Reserva a data: 22 de agosto de 2026</p>
+  <a class="btn-solid" href="https://whatsapp.com/channel/0029VaJA0oeHFxOtU5jBBb0Y" target="_blank" rel="noopener">Canle de WhatsApp</a>
+</section>
+
+<footer id="contacto">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="img/logo.png" alt="Festa da Empanada">
+        <p>Asociación de Amigos da Empanada de A Bandeira. Preservando e compartindo a rica herdanza cultural de Galicia dende 1974.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Empanada</h4>
+        <ul>
+          <li><a href="empanada/historia.html">Historia</a></li>
+          <li><a href="empanada/concurso.html">Concurso</a></li>
+          <li><a href="empanada/pregon.html">Pregón</a></li>
+          <li><a href="empanada/valedores.html">Valedores</a></li>
+          <li><a href="empanada/penas.html">Peñas</a></li>
+          <li><a href="empanada/programacion.html">Programación</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Visítanos</h4>
+        <ul>
+          <li><a href="#">Cómo chegar</a></li>
+          <li><a href="#">Onde durmir</a></li>
+          <li><a href="#">Gastronomía</a></li>
+          <li><a href="#">Turismo</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Asociación</h4>
+        <ul>
+          <li><a href="#">Quen somos</a></li>
+          <li><a href="#">Actividades</a></li>
+          <li><a href="#">Colabora</a></li>
+          <li><a href="#">Noticias</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Asociación de Amigos da Empanada de A Bandeira</span>
+      <div class="socials">
+        <a href="https://www.instagram.com/festadaempanada/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 2 .2 2.4.4.6.2 1 .5 1.5 1 .4.4.7.8 1 1.5.2.5.3 1.3.4 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 2-.4 2.4-.2.6-.5 1-1 1.5-.4.4-.8.7-1.5 1-.5.2-1.3.3-2.4.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2-.2-2.4-.4-.6-.2-1-.5-1.5-1-.4-.4-.7-.8-1-1.5-.2-.5-.3-1.3-.4-2.4C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-2 .4-2.4.2-.6.5-1 1-1.5.4-.4.8-.7 1.5-1 .5-.2 1.3-.3 2.4-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1 .1-1.6.2-1.9.3-.5.2-.8.4-1.1.7-.3.3-.5.6-.7 1.1-.1.3-.3.9-.3 1.9-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1 .2 1.6.3 1.9.2.5.4.8.7 1.1.3.3.6.5 1.1.7.3.1.9.3 1.9.3 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1-.1 1.6-.2 1.9-.3.5-.2.8-.4 1.1-.7.3-.3.5-.6.7-1.1.1-.3.3-.9.3-1.9.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1-.2-1.6-.3-1.9-.2-.5-.4-.8-.7-1.1-.3-.3-.6-.5-1.1-.7-.3-.1-.9-.3-1.9-.3-1.2-.1-1.6-.1-4.7-.1zm0 3.5a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm0 1.8a2.7 2.7 0 100 5.4 2.7 2.7 0 000-5.4zm5.7-2a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0z"/></svg></a>
+        <a href="https://www.facebook.com/festadaempanadadabandeira" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.3-1.5 1.6-1.5h1.7V3.7C15.9 3.6 15 3.5 14 3.5c-2.4 0-4 1.4-4 4.1v2.3H7.3V13H10v8h3.5z"/></svg></a>
+        <a href="https://www.youtube.com/@festadaempanada" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M21.6 7.2s-.2-1.5-.8-2.1c-.8-.8-1.7-.8-2.1-.9C15.9 4 12 4 12 4s-3.9 0-6.7.2c-.4 0-1.3.1-2.1.9-.6.6-.8 2.1-.8 2.1S2.2 9 2.2 10.7v1.6c0 1.7.2 3.5.2 3.5s.2 1.5.8 2.1c.8.8 1.9.8 2.3.9 1.7.2 6.5.2 6.5.2s3.9 0 6.7-.2c.4-.1 1.3-.1 2.1-.9.6-.6.8-2.1.8-2.1s.2-1.7.2-3.5v-1.6c0-1.7-.2-3.5-.2-3.5zM9.9 14.6V8.9l5.4 2.9-5.4 2.8z"/></svg></a>
+        <a href="https://www.tiktok.com/@festadaempanada" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 3c.4 2.3 2 4 4.6 4.2v3c-1.6.1-3-.4-4.6-1.4v6.6c0 3.6-2.9 6.6-6.6 6.6S3.4 19 3.4 15.4 6.4 8.8 10 8.8c.4 0 .7 0 1 .1v3.2c-.3-.1-.7-.2-1-.2-1.9 0-3.4 1.5-3.4 3.4S8.1 18.7 10 18.7s3.5-1.4 3.5-3.3V3h3.1z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
